@@ -12,6 +12,7 @@
     "game:crock-*-fired",
     "game:claypot-*-fired",
     "game:claypot-*-cooked",
+    "game:dirtyclaypot-*-empty",
     "game:bowl-*-fired",
     "game:bowl-*-meal",
     "game:vegetable-pumpkin",
