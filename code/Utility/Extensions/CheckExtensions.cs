@@ -41,6 +41,7 @@ public static class CheckExtensions {
         if (BlockEntityShelf.GetShelvableLayout(stack) == EnumShelvableLayout.SingleCenter) return true;
 
         if (collectible.Code.Path.StartsWith("claypot-") == true) return true;
+        if (collectible.Code.Path.StartsWith("dirtyclaypot-") == true) return true;
         
         if (collectible is BaseFSBasket) return true;
 
